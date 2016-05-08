@@ -15,6 +15,11 @@
         android:layout_height="wrap_content"
         android:id="@+id/PasswordTextbox"
         android:hint="Password" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LabelLoginMessage" />
     <Button
         android:id="@+id/SignInButton"
         android:layout_width="fill_parent"

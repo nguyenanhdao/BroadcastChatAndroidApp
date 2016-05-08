@@ -47,7 +47,17 @@ namespace BroadcastChatAndroidApp
                 Password = passwordTextbox.Text
             };
             UserLoginResponse response = await (new UserLoginService()).RunAsync(request);
-            button.Text = string.Format("Results : {0}.", response.UserLogin.Message);
+
+            if (response.UserLogin.IsError == false)
+            {
+                StartActivity(typeof(UserInboxActivity));
+                Finish();
+            }
+            else
+            {
+                button.Text = response.UserLogin.Message;
+            }
+            
         }
     }
 }

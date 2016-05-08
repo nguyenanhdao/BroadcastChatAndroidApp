@@ -62,14 +62,17 @@ namespace BroadcastChatAndroidApp
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f060002
+			public const int LabelLoginMessage = 2131099650;
+			
 			// aapt resource value: 0x7f060000
 			public const int MobileTextbox = 2131099648;
 			
 			// aapt resource value: 0x7f060001
 			public const int PasswordTextbox = 2131099649;
 			
-			// aapt resource value: 0x7f060002
-			public const int SignInButton = 2131099650;
+			// aapt resource value: 0x7f060003
+			public const int SignInButton = 2131099651;
 			
 			static Id()
 			{
@@ -86,6 +89,9 @@ namespace BroadcastChatAndroidApp
 			
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int UserInbox = 2130903041;
 			
 			static Layout()
 			{
@@ -104,7 +110,10 @@ namespace BroadcastChatAndroidApp
 			public const int ApplicationName = 2130968577;
 			
 			// aapt resource value: 0x7f040000
-			public const int SignInButton = 2130968576;
+			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040002
+			public const int SignInButton = 2130968578;
 			
 			static String()
 			{
